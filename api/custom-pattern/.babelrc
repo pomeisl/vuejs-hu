@@ -1,0 +1,4 @@
+{
+  "plugins": ["system-import-transformer", "transform-object-rest-spread"],
+  "presets": ["env"]
+}
