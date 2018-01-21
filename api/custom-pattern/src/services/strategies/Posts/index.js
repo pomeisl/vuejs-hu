@@ -7,13 +7,13 @@ class Posts extends AbstractInterface {
     super()
   }
 
-  handler(actionType, payload = {}) {
+  handler(action, params) {
     const ref = new Posts()
-    switch (actionType) {
+    switch (action) {
     case POSTS_METHOD_NAME:
-      return posts(ref, payload.params)
+      return posts(ref, params)
     default:
-      return new Error('Unknown error type', ref.constructor.name)
+      return new Error('Unknown action.', ref.constructor.name)
     }
   }
 }
