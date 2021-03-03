@@ -38,7 +38,7 @@
     "jquery": "^3.3.0",
     "json-server": "^0.12.1",
     "nodemon": "^1.14.11",
-    "pug": "^2.0.0-rc.4",
+    "pug": "^3.0.1",
     "vue-loader": "^13.7.0",
     "vue-template-compiler": "^2.5.13",
     "vue-template-loader": "^0.4.0",
